@@ -1,50 +1,36 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap");
-.h-h {
+.header{
   height: 81px;
-}
-
-.h-f-s {
   font-size: 18px;
+   font-family: "Roboto";
 }
-.h-f-f {
-  font-family: "Roboto";
 
-}
-.li-l-s {
+.li-styling {
+  display: inline-block;
   letter-spacing: 2.7px;
-}
-.li-l-h {
   line-height: 22.22px;
-}
-
-
-.li-m-tb{
   margin-top: 32px;
   margin-bottom: 35px;
-}
-.li-m-r-65{
   margin-right: 65px;
 }
-.li-m-l-332{
+
+.li-margin-left-332{
   margin-left: 332px;
 }
+
 .li-m-r-345{
   margin-right: 345px;
 }
 
-.ta-center {
-  text-align: center;
-}
-.t-c {
+
+.text-color {
   color: #16a085;
 }
-.li-inline-block {
-  display: inline-block;
-}
+
 .m-15 {
   margin: 15px;
 }
-.f-b {
+.fold-bold {
   font-weight: 900;
 }
 
@@ -53,95 +39,55 @@ img {
   height: 790px;
 }
 
-.m-b-g {
+.main{
   background-color: #f5f6f8;
-}
-.m-c {
   color: #373737;
+  text-align: center;
 }
 
-.h1-f-s {
+.h1-styling{
   font-size: 22px;
-}
-.h1-l-s {
   letter-spacing: 3.3px;
-}
-.f-f-ro {
-  font-family: "Roboto";
-}
-
-.h1-m{
   margin: 59px 0px 34px 0px;
 }
 
+.font-roboto {
+  font-family: "Roboto";
+}
 
-.s-l-h {
+.section-styling{
   line-height: 26px;
-}
-.s-w {
-  width: 1059px;
-  height: 354px;
-}
-.s-f-s {
-  font-size: 16px;
-}
-.s-l-s {
-  letter-spacing: 2.4px;
-}
-.s-m {
   margin: 0px 108px 0px 113px;
-}
-
-.m-30 {
+  line-height: 26px;
+  font-size: 16px;
+  letter-spacing: 2.4px;
   margin-top: 30px;
 }
 
-.b-f-s {
+.button-styling{
   font-size: 12px;
-}
-.b-b {
   border: 0px;
-}
-.b-wh {
-  /* width: 15%; */
   width: 192px;
   height: 51px;
-}
-.b-l-h {
   line-height: 20px;
-}
-.b-l-s {
   letter-spacing: 1.8px;
-}
-
-.b-c {
   color: white;
-}
-.b-r {
   border-radius: 5px;
-}
-.b-m {
   margin: 41px 0px 94px 0px;
-}
-
-.b-bg {
   background-color: #16a085;
 }
-.ft-t-a {
+
+.footer-styling{
   text-align: right;
-}
-.ft-text-p {
-  padding: 47px 104px 45px 0px;
-}  
-.ft-h {
   height: 108px;
-}
-.ft-l-s{
   letter-spacing: 2.4px;
-}
-.ft-f-s{
   font-size: 16px;
 }
+
+.p-padding{
+  padding: 47px 104px 45px 0px;
+}  
+
 .linkcolor{
   color:inherit;
 }
