@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap");
 .header{
-  height: 81px;
   font-size: 18px;
    font-family: "Roboto";
 }
@@ -56,7 +55,6 @@ img {
 }
 
 .section-styling{
-  line-height: 26px;
   margin: 0px 108px 0px 113px;
   line-height: 26px;
   font-size: 16px;
