@@ -9,19 +9,11 @@
 
 .li-styling {
   display: inline-block;
+  text-transform: uppercase;
   letter-spacing: 2.7px;
   line-height: 22.22px;
   margin: 32px 65px 35px 0 ;
   }
-
-.li-margin-left-332{
-  margin-left: 332px;
-}
-
-.li-m-r-345{
-  margin-right: 345px;
-}
-
 
 .text-color {
   color: #16a085;
@@ -60,6 +52,7 @@ a{
   text-decoration: none;
 }
 .button-styling{
+  text-transform: uppercase;
   font-size: 12px;
   border: 0px;
   width: 192px;
@@ -74,7 +67,6 @@ a{
 
 .footer-styling{
   text-align: right;
-  height: 108px;
   letter-spacing: 2.4px;
   font-size: 16px;
 }
@@ -83,9 +75,9 @@ a{
   padding: 47px 104px 45px 0px;
 }  
 
-.linkcolor{
+.link-color{
   color:inherit;
 }
-.m-30{
+.margin-top-30{
   margin-top: 30px;
 }
