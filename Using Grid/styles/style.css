@@ -13,6 +13,9 @@ body {
   margin: 49px 150px 0 157px;
   display: grid;
 }
+.font-verdana{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 
 header {
   display: grid;
@@ -23,6 +26,7 @@ header {
 .logo-text {
   padding-left: 15px;
   text-transform: uppercase;
+  font-weight: bold;
 }
 
 .footer {
@@ -65,6 +69,9 @@ header {
 .main-image {
   width: 307px;
   height: 200px;
+  border-width: 2px;
+  border-style: solid;
+  border-image: linear-gradient(180deg, white, black) 1;
 }
 
 figcaption {
