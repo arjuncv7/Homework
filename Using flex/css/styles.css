@@ -1,87 +1,98 @@
 html {
   width: 1336px;
-
-
 }
 
 body {
-    background-image: url(/images/background2.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
- 
-
+  background-image: url(../images/background2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.logo{
+.logo {
   width: 46px;
   height: 44px;
-  
+
 }
+
 .container {
   color: white;
   margin: 49px 150px 0 157px;
 }
-.header-left{
+
+.header-left {
   display: flex;
 }
+
 .header-text {
   display: flex;
-    flex-direction: column;
-    padding-left: 15px;
+  flex-direction: column;
+  padding-left: 15px;
+  text-transform: uppercase;
 }
-.header-text > p:nth-of-type(1){
+
+.header-text>p:nth-of-type(1) {
   font-size: 29px;
 }
-.header-text > p:nth-of-type(2){
-    font-size: 18px;
-  }
-  .header{
-    display: flex;
-    justify-content: space-between;
-  }
-  .header-right{
-    text-align: right;
-    font-size: 18px;
-    display: flex;
-    flex-direction: column;
-    justify-content: end;
-  }
-  .headerright > p:nth-of-type(1){
-    padding-bottom: 5px;
-  }
-  .main{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-.main-image{
-    width: 307px;
-    height: 200px;
 
-    
- 
+.header-text>p:nth-of-type(2) {
+  font-size: 18px;
 }
-figcaption{
-    padding-top: 22px;
-    text-align: center;
-    font-size: 18px;
+
+.header {
+  display: flex;
+  justify-content: space-between;
 }
-.upper-row{
-    margin-bottom: 58px;
+
+.header-right {
+  text-align: right;
+  font-size: 18px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
 }
-main > .container{
+
+.header-right>p:nth-of-type(1) {
+  padding-bottom: 5px;
+}
+
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.main-image {
+  width: 307px;
+  height: 200px;
+
+}
+
+figcaption {
+  padding-top: 22px;
+  text-align: center;
+  font-size: 18px;
+}
+
+.upper-row {
+  margin-bottom: 58px;
+}
+
+main>.container {
   margin-bottom: 61px;
 }
-footer{
-    text-align: center;
-    font-size: 12px;
+
+footer {
+  text-align: center;
+  font-size: 12px;
 }
-footer > .container{
-    margin-top: 0px;
-    margin-bottom: 20px;
-    
+
+footer>.container {
+  margin-top: 0px;
+  margin-bottom: 20px;
+
 }
+
 a {
-  color:inherit;
+  color: inherit;
   text-decoration: none;
 }
