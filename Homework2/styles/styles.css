@@ -1,5 +1,7 @@
 html {
   width: 1480px;
+  margin: 0 auto;
+
 }
 .container {
   width: 1280px;
@@ -26,21 +28,26 @@ h1{
     margin-bottom: 51px;
 }
 
-
-.li-styling{
+.column-header{
     display: flex;
+    flex-direction: row;
+    text-align: center;
     justify-content: center;
+}
+.li-styling{
     display: inline-block; 
-    margin-left: 43px; 
     padding: 26px 20px;
     color: white;
+    padding: 20px 30px;
+    transition: 0.3s;
 }
 
 .li-hover:hover{
     background-color: #222f3a;
-    border-left:1px solid white;
-    border-right:1px solid white;
-    cursor: pointer;height: 100%;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    cursor: pointer;
+
 
 
 }
