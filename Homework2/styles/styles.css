@@ -82,7 +82,7 @@ main{
     width: 874px;
    
 }
-.img-container{
+.ramda-image{
     display: flex;
     justify-content: center;
     align-items: center;  
@@ -93,7 +93,7 @@ main{
 
 img{
     width: 320px;
-    height: 381px;
+    height: 381px;  
     transition: transform 0.3s;
 }
 img:hover{
@@ -154,6 +154,5 @@ color: black;
 
 .footer-container{
   width: 1280px;
-  margin: 0 auto;
-  margin-bottom: 30px;
+  margin: 0 auto 30px auto;
 }
