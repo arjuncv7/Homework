@@ -9,107 +9,149 @@
     <link rel="stylesheet" href="./styles/style.css" />
   </head>
   <body>
-    <div class="container">
-      <header>
-        <div class="logo">
-          <a href="#"><img class="logo" src="./images/buildinglogo.png" /></a>
+    <header>
+      <div class="container">
+        <div class="header">
+          <div class="header-logo">
+            <a href="#"
+              ><img class="header-logo-image" src="./images/logoImg.png"
+            /></a>
+            <a href="#">
+              <div class="header-logo-text">
+                <p class="header-logo-text-milan">milan</p>
+                <p class="header-logo-text-holidays">holidays</p>
+              </div>
+            </a>
+          </div>
+          <div class="header-details">
+            <p class="header-details-email">tours@milanoholidays.com</p>
+            <p>+39 338 709 0880</p>
+          </div>
         </div>
-        <a href="#">
-        <div class="logo-text font-verdana">
-          <p>milan</p>
-          <p>holidays</p>
-        </div>
-      </a>
-        <div class="details font-verdana">
-          <p>tours@milanoholidays.com</p>
-          <p>+39 338 709 0880</p>
-        </div>
-      </header>
-      <main class="main">
-        <figure class="upper-row image">
-          <img class="main-image" src="./images/shopping.jpg" alt="shopping" />
-          <a href="#">
-            <figcaption class="font-verdana">Shopping Tours</figcaption class="font-verdana">
-          </a>
-          <div class="orange-box">
-              <div class="orange-left"><p>from </p>
-                <p>€ 50</p></div><div class="orange-right">
-                  <p>View Details &nbsp ></p></div>          
-            </div>
-        </figure>
-        <figure class="upper-row image">
+      </div>
+    </header>
+    <main>
+      <div class="tour-images main-container">
+        <div class="tour-item">
           <img
-            class="main-image"
-            src="./images/sightseeing.jpg"
+            class="tour-item-image"
+            src="./images/shopping.png"
             alt="shopping"
           />
           <a href="#">
-            <figcaption class="font-verdana">Sightseeing Tours</figcaption class="font-verdana">
+            <p class="tour-item-text">Shopping Tours</p>
           </a>
-          <div class="orange-box">
-              <div class="orange-left"><p>from </p>
-                <p>€ 50</p></div><div class="orange-right">
-                  <p>View Details &nbsp ></p></div>          
+          <div class="image-hover-box">
+            <div class="image-hover-box-price">
+              <p class="image-price-from">from</p>
+              <p class="image-price">€50</p>
             </div>
-        </figure>
-        <figure class="upper-row image">
-          <img class="main-image" src="./images/foodtours.jpg" alt="shopping" />
-          <a href="#">
-            <figcaption class="font-verdana">Food Tours</figcaption class="font-verdana">
-          </a>
-          <div class="orange-box">
-              <div class="orange-left"><p>from </p>
-                <p>€ 50</p></div><div class="orange-right">
-                  <p>View Details &nbsp ></p></div>          
+            <div class="image-hover-box-details">
+              <p class="details">View Details &nbsp ></p>
             </div>
-        </figure>
-        <figure class="bottom-row image">
-          <img class="main-image" src="./images/nightlife.jpg" alt="shopping" />
-          <a href="#">
-            <figcaption class="font-verdana">Bars & Nightlife</figcaption class="font-verdana">
-          </a>
-          <div class="orange-box">
-              <div class="orange-left"><p>from </p>
-                <p>€ 50</p></div><div class="orange-right">
-                  <p>View Details &nbsp ></p></div>          
-            </div>
-        </figure>
-        <figure class="bottom-row image">
+          </div>
+        </div>
+        <div class="tour-item">
           <img
-            class="main-image"
-            src="./images/architecture.jpeg"
+            class="tour-item-image"
+            src="./images/sightseeing.png"
             alt="shopping"
           />
           <a href="#">
-            <figcaption class="font-verdana">Art & Architecture</figcaption class="font-verdana">
+            <p class="tour-item-text">Sightseeing Tours</p>
           </a>
-          <div class="orange-box">
-              <div class="orange-left"><p>from </p>
-                <p>€ 50</p></div><div class="orange-right">
-                  <p>View Details &nbsp ></p></div>          
+          <div class="image-hover-box">
+            <div class="image-hover-box-price">
+              <p class="image-price-from">from</p>
+              <p class="image-price">€50</p>
             </div>
-        </figure>
-        <figure class="bottom-row image">
+            <div class="image-hover-box-details">
+              <p class="details">View Details &nbsp ></p>
+            </div>
+          </div>
+        </div>
+        <div class="tour-item">
           <img
-            class="main-image"
-            src="./images/walkingtours.jpg"
+            class="tour-item-image"
+            src="./images/foodtours.png"
             alt="shopping"
           />
           <a href="#">
-            <figcaption class="font-verdana">Walking Tours</figcaption class="font-verdana">
+            <p class="tour-item-text">Food Tours</p>
           </a>
-          <div class="orange-box">
-              <div class="orange-left"><p>from </p>
-                <p>€ 50</p></div><div class="orange-right">
-                  <p>View Details &nbsp ></p></div>          
+          <div class="image-hover-box">
+            <div class="image-hover-box-price">
+              <p class="image-price-from">from</p>
+              <p class="image-price">€50</p>
             </div>
-          
-        </figure>
-       
-      </main>
-      <footer class="footer font-verdana">
+            <div class="image-hover-box-details">
+              <p class="details">View Details &nbsp ></p>
+            </div>
+          </div>
+        </div>
+        <div class="tour-item">
+          <img
+            class="tour-item-image"
+            src="./images/nightlife.png"
+            alt="shopping"
+          />
+          <a href="#">
+            <p class="tour-item-text">Bars & Nightlife</p>
+          </a>
+          <div class="image-hover-box">
+            <div class="image-hover-box-price">
+              <p class="image-price-from">from</p>
+              <p class="image-price">€50</p>
+            </div>
+            <div class="image-hover-box-details">
+              <p class="details">View Details &nbsp ></p>
+            </div>
+          </div>
+        </div>
+        <div class="tour-item">
+          <img
+            class="tour-item-image"
+            src="./images/architecture.png"
+            alt="shopping"
+          />
+          <a href="#">
+            <p class="tour-item-text">Art & Architecture</p>
+          </a>
+          <div class="image-hover-box">
+            <div class="image-hover-box-price">
+              <p class="image-price-from">from</p>
+              <p class="image-price">€50</p>
+            </div>
+            <div class="image-hover-box-details">
+              <p class="details">View Details &nbsp ></p>
+            </div>
+          </div>
+        </div>
+        <div class="tour-item">
+          <img
+            class="tour-item-image"
+            src="./images/walkingtours.png"
+            alt="shopping"
+          />
+          <a href="#">
+            <p class="tour-item-text">Walking Tours</p>
+          </a>
+          <div class="image-hover-box">
+            <div class="image-hover-box-price">
+              <p class="image-price-from">from</p>
+              <p class="image-price">€50</p>
+            </div>
+            <div class="image-hover-box-details">
+              <p class="details">View Details &nbsp ></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="footer-container">
         © 2018 Copyright Milan Holidays, Inc. All rights reserved.
-      </footer>
-    </div>
+      </div>
+    </footer>
   </body>
 </html>
