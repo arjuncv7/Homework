@@ -1,132 +1,149 @@
-html {
-  width: 1336px;
-}
-
 body {
-  background-image: url(../images/background2.jpg);
+  width: 1336px;
+  margin: 0 auto;
+  background-image: url(../images/background.png);
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
 }
 
 .container {
+  width: 1140px;
+  margin: 49px auto 0 auto;
+}
+.header {
   color: white;
-  margin: 49px 150px 0 157px;
   display: grid;
+  grid-template-columns: 1fr 17fr;
+  align-items: end;
 }
-.font-verdana {
+
+.header-details {
+  text-align: right;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-figure {
-  position: relative;
-}
-.orange-box {
-  width: 311px;
-  background-color: rgba(255, 89, 0, 0.8);
-  position: absolute;
-  bottom: 43px;
-  height: 50px;
-  display: flex;
-  justify-content: space-around;
-  align-items: end;
-  visibility: hidden;
-}
-figure p:last-child {
-  padding-bottom: 10px;
-}
-.orange-box {
-  width: 311px;
-  background-color: rgba(255, 89, 0, 0.8);
-  position: absolute;
-  bottom: 43px;
-  height: 1px;
-  display: flex;
-  justify-content: space-around;
-  align-items: end;
-  visibility: hidden;
-  opacity: 0;
-  transition: 0.5s;
+  font-size: 18px;
 }
 
-figure p:last-child {
-  padding-bottom: 10px;
+.header-details-email {
+  padding-bottom: 5px;
 }
 
-
-.image:hover .orange-box {
-  visibility: visible;
-  height: 50px;
-  opacity: 1;
-}
-
-
-.image:hover .orange-box {
-  visibility: visible;
-}
-.image:hover figcaption {
-  color: rgba(255, 89, 0);
-}
-
-header {
+.header-logo {
   display: grid;
-  grid-template-columns: 1fr 17fr 1fr;
-  align-items: end;
+  grid-template-columns: repeat(2, 1fr);
 }
 
-.logo-text {
-  padding-left: 15px;
-  text-transform: uppercase;
-  font-weight: bold;
+.header-logo-text-milan {
+  font-size: 29px;
 }
 
-.footer {
-  color: rgb(255, 255, 255);
-  text-align: center;
-  padding-bottom: 20px;
-  padding-top: 61px;
-  font-size: 12px;
+.header-logo-text-holidays {
+  font-size: 18px;
 }
 
-.logo {
+.header-logo-image {
+  object-fit: cover;
+  object-position: left;
   width: 46px;
   height: 44px;
 }
 
-.logo-text > p:nth-of-type(1) {
-  font-size: 29px;
+.header-logo:hover .header-logo-image,
+.header-logo:hover .header-logo-text {
+  color: rgb(221, 91, 30);
+  object-position: right;
 }
 
-.logo-text > p:nth-of-type(2) {
-  font-size: 18px;
-}
-
+.image-price,
 .details {
-  text-align: right;
-  font-size: 18px;
+  font-size: 12px;
 }
 
-.details > p:nth-of-type(1) {
+.image-price-from {
   padding-bottom: 5px;
+  font-size: 9px;
 }
 
-.main {
-  margin-top: 48px;
+.tour-item {
+  position: relative;
+}
+
+.image-hover-box {
+  width: 311px;
+  background-color: rgba(255, 89, 0, 0.8);
+  position: absolute;
+  bottom: 42px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: end;
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.3s;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.tour-item-text {
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding-top: 22px;
+}
+
+.tour-item:hover .image-hover-box {
+  visibility: visible;
+  height: 60px;
+  opacity: 1;
+}
+
+.image-hover-box-details,
+.image-hover-box-price {
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
+
+.tour-item:hover .image-hover-box {
+  visibility: visible;
+}
+
+.tour-item:hover .tour-item-text {
+  color: rgba(255, 89, 0);
+}
+
+.header-logo-text {
+  padding-left: 15px;
+  text-transform: uppercase;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 900;
+}
+
+.main-container {
+  width: 1140px;
+  margin: 48px auto 0 auto;
+}
+
+footer {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-size: 12px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+} 
+.footer-container {
+  width: 1140px;
+  margin: 61px auto 20px auto;
+}
+
+.tour-images {
+  color: white;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-gap: 58px 48px;
+  grid-gap: 58px 103px;
 }
 
-.main-image {
+.tour-item-image {
   width: 307px;
   height: 200px;
   border-width: 2px;
   border-style: solid;
   border-image: linear-gradient(180deg, white, black) 1;
-}
-
-figcaption {
-  padding-top: 22px;
-  text-align: center;
-  font-size: 18px;
 }
 
 a {

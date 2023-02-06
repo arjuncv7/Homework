@@ -39,7 +39,6 @@ body {
   font-weight: 900;
 }
 
-
 .header-logo-text-milan {
   font-size: 29px;
 }
@@ -63,7 +62,6 @@ body {
   padding-top: 22px;
   font-size: 18px;
 }
-
 
 .tour-item:hover .tour-item-text {
   transition: 0.3s;
@@ -131,7 +129,6 @@ body {
   border-style: solid;
   border-image: linear-gradient(180deg, white, black) 1;
 }
-
 
 .item-container {
   margin-bottom: 58px;
