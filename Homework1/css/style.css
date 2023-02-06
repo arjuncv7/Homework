@@ -2,23 +2,17 @@
 .header{
   font-size: 18px;
    font-family: "Roboto";
-}
-.text-center{
-  text-align: center;
+   color: #16a085;
+   text-align: center;
 }
 
-.li-item {
+.nav-item {
   display: inline-block;
   text-transform: uppercase;
   letter-spacing: 2.7px;
-  line-height: 22.22px;
   margin: 32px 65px 35px 0 ;
+  color:inherit;
   }
-
-.text-color {
-  color: #16a085;
-}
-
 
 img {
   width: 100%;
@@ -27,12 +21,14 @@ img {
 .main{
   background-color: #f5f6f8;
   color: #373737;
+  text-align: center;
 }
 
-.h1{
+.content-header{
   font-size: 22px;
   letter-spacing: 3.3px;
   margin: 59px 0px 34px 0px;
+  font-family: "Roboto";
 }
 
 .font-roboto {
@@ -44,15 +40,18 @@ img {
   margin: 0 auto;
 }
 
-.section-content{
+.articles{
   line-height: 26px;
   font-size: 16px;
   letter-spacing: 2.4px;
+  font-family: "Roboto";
 }
+
 a{
   text-decoration: none;
 }
-.button-start{
+
+.btn-start{
   text-transform: uppercase;
   font-size: 12px;
   border: 0px;
@@ -63,7 +62,7 @@ a{
   border-radius: 5px;
   margin: 41px 0px 94px 0px;
   background-color: #16a085;
-  font-weight: bold;
+  font-weight: 900;
   cursor: pointer;
 }
 
@@ -71,15 +70,10 @@ a{
   text-align: right;
   letter-spacing: 2.4px;
   font-size: 16px;
+   padding: 47px 104px 45px 0px;
+   font-family: "Roboto";
 }
 
-.p-padding{
-  padding: 47px 104px 45px 0px;
-}  
-
-.link-color{
-  color:inherit;
-}
-article > p:last-child{
-  margin-top: 30px;
+.article1{
+  margin-bottom: 30px;
 }
