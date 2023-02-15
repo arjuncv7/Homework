@@ -9,52 +9,42 @@
     <link rel="stylesheet" href="./styles/styles.css" />
   </head>
   <body>
-    <div class="container">
-      <header>
+    <header>
+      <div class="container">
         <h1>
           <a href="#"
-            ><span class="header-fontsize"
-              >Ra<span class="header-end">mda.js</span></span
+            ><span class="logo-ra"
+              >Ra<span class="logo-mda">mda.js</span></span
             ></a
           >
         </h1>
-      </header>
-      <nav class="navigation-styling">
-        <ul>
-          <a><li class="li-styling li-hover">Functional Programming</li></a>
-          <a><li class="li-styling li-hover">Ramda</li></a>
-          <a><li class="li-styling li-hover">Fantasy Land Spec</li></a>
-          <a><li class="li-styling li-hover">Node.js for all</li></a>
-        </ul>
-      </nav>
-      <aside class="aside-styling">
-        <ul>
-          <li class="aside-li-styling selected">
-            <a href="#"><span>Ramda</span></a>
-          </li>
-          <li class="aside-li-styling selected">
-            <a href="#"><span>Why Ramda?</span></a>
-          </li>
-          <li class="aside-li-styling selected">
-            <a href="#"><span>What's Different?</span></a>
-          </li>
-          <li class="aside-li-styling selected">
-            <a href="#"><span>Introductions</span></a>
-          </li>
-          <li class="aside-li-styling selected">
-            <a href="#"><span>Philosophy</span></a>
-          </li>
-        </ul>
+      </div>
+    </header>
+    <nav class="container">
+      <div class="header-menu">
+        <a href="#" class="header-menu-item">Functional Programming</a>
+        <a href="#" class="header-menu-item">Ramda</a>
+        <a href="#" class="header-menu-item">Fantasy Land Spec</a>
+        <a href="#" class="header-menu-item">Node.js for all</a>
+      </div>
+    </nav>
+    <main class="container">
+      <aside>
+        <div class="sidebar">
+          <a href="#" class="sidebar-item">Ramda</a>
+          <a href="#" class="sidebar-item">Why Ramda?</a>
+          <a href="#" class="sidebar-item">What's Different?</a>
+          <a href="#" class="sidebar-item">Introduction</a>
+          <a href="#" class="sidebar-item">Philosophy</a>
+        </div>
       </aside>
-      <main class="main-container">
-        <figure>
-          <div class="img-container">
-            <img class="logo" src="./img/logo.JPG" alt="logo" />
-          </div>
-        </figure>
-          <section class="section-styling">
-            <article >
-              <p>
+      <div class="ramda-content">
+        <div class="ramda-image">
+          <img src="./img/logo.JPG" alt="logo" />
+        </div>
+        <section>
+          <article>
+            <p class="ramda-para-1">
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae
               repudiandae neque accusantium nemo assumenda delectus architecto,
               eveniet iusto iste sed quo ullam nobis repellendus libero vero
@@ -62,7 +52,7 @@
               laudantium eaque autem quod delectus vero tenetur nemo accusamus
               nostrum explicabo eveniet mollitia illum deleniti.
             </p>
-          <p class="p-margintop">
+            <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe,
               ipsam? Maiores incidunt, molestiae quo voluptatum, rem tempora
               earum debitis praesentium quis autem dolores ipsam explicabo
@@ -70,21 +60,19 @@
               qui quis a modi repellendus accusantium omnis architecto illum
               nesciunt autem nihil soluta nobis doloribus sapiente corrupti?
             </p>
-            </article>
-          </section>
-      </main>
-      <footer class="footer-styling ">
-        <div class="leftfooter">
-          <ul class="left-footer-styling">
-            <a><li>Ramda</li></a>
-            <a><li class="footer-li-styling">Why Ramda?</li></a>
-            <a><li class="footer-li-styling">What's Different?</li></a>
-            <a><li class="footer-li-styling">Introductions</li></a>
-            <a><li class="footer-li-styling">Philosophy</li>
-          </ul></a>
-        </div>
-        <div class="right-footer">Copyright © 2018</div>
-      </footer>
-    </div>
+          </article>
+        </section>
+      </div>
+    </main>
+    <footer class="container">
+      <nav class="footer-menu">
+        <a href="#" class="footer-link">Ramda</a>
+        <a href="#" class="footer-link footer-menu-item">Why Ramda?</a>
+        <a href="#" class="footer-link footer-menu-item">What's Different?</a>
+        <a href="#" class="footer-link footer-menu-item">Introduction</a>
+        <a href="#" class="footer-link footer-menu-item">Philosophy</a>
+      </nav>
+      <p class="copyright">Copyright © 2018</p>
+    </footer>
   </body>
 </html>
