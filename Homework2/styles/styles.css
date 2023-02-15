@@ -3,22 +3,26 @@ body {
   margin: 0 auto;
   font-family: sans-serif;
 }
+
 .container {
   width: 1280px;
   margin: 61px auto 0 auto;
 }
+
 main {
   display: flex;
   justify-content: space-between;
 }
-nav.container{
-    margin-top: 45px;
+
+nav.container {
+  margin-top: 45px;
 }
 
 .logo-ra {
   font-size: 80px;
   color: black;
 }
+
 .logo-mda {
   color: #4bcaff;
 }
@@ -29,12 +33,14 @@ nav.container{
   display: flex;
   justify-content: center;
 }
+
 .header-menu-item {
   color: white;
   padding: 20px 30px;
   border: 1px solid transparent;
   transition: border 0.3s ease;
 }
+
 .header-menu-item:hover {
   background-color: #222f3a;
   border-left: 1px solid white;
@@ -44,13 +50,14 @@ nav.container{
 aside {
   width: 344px;
   display: flex;
-  align-items:start;
+  align-items: start;
+}
 
-}
 .sidebar {
-    flex: 1;
-    border: 1px solid black;
+  flex: 1;
+  border: 1px solid black;
 }
+
 .sidebar-item:hover {
   padding-left: 70px;
   transition: All 0.4s ease;
@@ -67,7 +74,6 @@ aside {
   color: rgb(70, 87, 99);
 }
 
-
 .ramda-image {
   display: flex;
   justify-content: center;
@@ -79,6 +85,7 @@ img {
   width: 320px;
   transition: transform 0.3s;
 }
+
 img:hover {
   transform: scale(1.45);
 }
@@ -89,12 +96,15 @@ section {
   font-size: 18px;
   line-height: 24px;
 }
+
 a {
   text-decoration: none;
 }
+
 article {
   padding: 50px 25px;
 }
+
 .ramda-para-1 {
   padding-bottom: 30px;
 }
@@ -116,13 +126,16 @@ a:visited {
 .footer-menu-item {
   margin-left: 20px;
 }
+
 .copyright {
   padding-right: 33px;
   font-size: 24px;
 }
+
 .footer-link {
   color: black;
 }
+
 .footer-link:hover {
   transition: 0.6s;
   cursor: pointer;
@@ -130,8 +143,8 @@ a:visited {
   border-bottom: 1px solid #3181a6;
 }
 
-footer.container{
-    margin: 0 auto 30px auto;
+footer.container {
+  margin: 0 auto 30px auto;
 }
 
 main.container {
