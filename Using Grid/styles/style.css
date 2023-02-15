@@ -1,132 +1,146 @@
-html {
-  width: 1336px;
-}
-
 body {
-  background-image: url(../images/background2.jpg);
+  background-image: url(../images/background.png);
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .container {
+  width: 1140px;
+  margin: 49px auto 0 auto;
+}
+
+.header {
   color: white;
-  margin: 49px 150px 0 157px;
   display: grid;
-}
-.font-verdana {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-figure {
-  position: relative;
-}
-.orange-box {
-  width: 311px;
-  background-color: rgba(255, 89, 0, 0.8);
-  position: absolute;
-  bottom: 43px;
-  height: 50px;
-  display: flex;
-  justify-content: space-around;
-  align-items: end;
-  visibility: hidden;
-}
-figure p:last-child {
-  padding-bottom: 10px;
-}
-.orange-box {
-  width: 311px;
-  background-color: rgba(255, 89, 0, 0.8);
-  position: absolute;
-  bottom: 43px;
-  height: 1px;
-  display: flex;
-  justify-content: space-around;
-  align-items: end;
-  visibility: hidden;
-  opacity: 0;
-  transition: 0.5s;
-}
-
-figure p:last-child {
-  padding-bottom: 10px;
-}
-
-
-.image:hover .orange-box {
-  visibility: visible;
-  height: 50px;
-  opacity: 1;
-}
-
-
-.image:hover .orange-box {
-  visibility: visible;
-}
-.image:hover figcaption {
-  color: rgba(255, 89, 0);
-}
-
-header {
-  display: grid;
-  grid-template-columns: 1fr 17fr 1fr;
+  grid-template-columns: 1fr 17fr;
   align-items: end;
 }
 
-.logo-text {
-  padding-left: 15px;
-  text-transform: uppercase;
-  font-weight: bold;
-}
-
-.footer {
-  color: rgb(255, 255, 255);
-  text-align: center;
-  padding-bottom: 20px;
-  padding-top: 61px;
-  font-size: 12px;
-}
-
-.logo {
-  width: 46px;
-  height: 44px;
-}
-
-.logo-text > p:nth-of-type(1) {
-  font-size: 29px;
-}
-
-.logo-text > p:nth-of-type(2) {
-  font-size: 18px;
-}
-
-.details {
+.header-details {
   text-align: right;
   font-size: 18px;
 }
 
-.details > p:nth-of-type(1) {
+.header-details-email {
   padding-bottom: 5px;
 }
 
-.main {
-  margin-top: 48px;
+.header-logo {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 58px 48px;
+  grid-template-columns: repeat(2, 1fr);
 }
 
-.main-image {
+.header-logo-text-milan {
+  font-size: 29px;
+}
+
+.header-logo-text-holidays {
+  font-size: 18px;
+}
+
+.header-logo-image {
+  object-fit: cover;
+  object-position: left;
+  width: 46px;
+  height: 44px;
+}
+
+.header-logo:hover .header-logo-image,
+.header-logo:hover .header-logo-text {
+  color: rgb(221, 91, 30);
+  object-position: right;
+}
+
+.image-price,
+.details {
+  font-size: 18px;
+}
+
+.image-price-from {
+  padding-bottom: 5px;
+  font-size: 10px;
+}
+
+.tour-item {
+  position: relative;
+}
+
+.image-hover-box {
+  background-color: rgba(255, 89, 0, 0.8);
+  position: absolute;
+  bottom: 42px;
+  display: grid;
+  padding-right: 26px;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: end;
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.3s;
+}
+
+.tour-item-text {
+  text-align: center;
+
+  padding-top: 22px;
+}
+
+.tour-item:hover .image-hover-box {
+  visibility: visible;
+  height: 60px;
+  opacity: 1;
+}
+
+.image-hover-box-price {
+  padding-left: 20px;
+  padding-bottom: 15px;
+}
+
+.tour-item:hover .image-hover-box {
+  visibility: visible;
+}
+
+.tour-item:hover .tour-item-text {
+  color: rgba(255, 89, 0);
+}
+
+.image-hover-box-details {
+  padding-bottom: 15px;
+  padding-left: 10px;
+}
+
+.header-logo-text {
+  padding-left: 15px;
+  text-transform: uppercase;
+
+  font-weight: 900;
+}
+
+footer {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-size: 12px;
+}
+
+footer.container {
+  margin-top: 61px;
+  margin-bottom: 20px;
+}
+
+.tour-images {
+  color: white;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 58px 103px;
+}
+
+.tour-item-image {
   width: 307px;
   height: 200px;
   border-width: 2px;
   border-style: solid;
   border-image: linear-gradient(180deg, white, black) 1;
-}
-
-figcaption {
-  padding-top: 22px;
-  text-align: center;
-  font-size: 18px;
 }
 
 a {
