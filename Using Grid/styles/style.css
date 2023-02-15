@@ -1,16 +1,16 @@
 body {
-  width: 1336px;
-  margin: 0 auto;
   background-image: url(../images/background.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .container {
   width: 1140px;
   margin: 49px auto 0 auto;
 }
+
 .header {
   color: white;
   display: grid;
@@ -20,7 +20,6 @@ body {
 
 .header-details {
   text-align: right;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 18px;
 }
 
@@ -56,12 +55,12 @@ body {
 
 .image-price,
 .details {
-  font-size: 12px;
+  font-size: 18px;
 }
 
 .image-price-from {
   padding-bottom: 5px;
-  font-size: 9px;
+  font-size: 10px;
 }
 
 .tour-item {
@@ -69,22 +68,21 @@ body {
 }
 
 .image-hover-box {
-  width: 311px;
   background-color: rgba(255, 89, 0, 0.8);
   position: absolute;
   bottom: 42px;
   display: grid;
+  padding-right: 26px;
   grid-template-columns: repeat(2, 1fr);
   align-items: end;
   visibility: hidden;
   opacity: 0;
   transition: 0.3s;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .tour-item-text {
   text-align: center;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
   padding-top: 22px;
 }
 
@@ -94,10 +92,9 @@ body {
   opacity: 1;
 }
 
-.image-hover-box-details,
 .image-hover-box-price {
   padding-left: 20px;
-  padding-bottom: 20px;
+  padding-bottom: 15px;
 }
 
 .tour-item:hover .image-hover-box {
@@ -108,27 +105,27 @@ body {
   color: rgba(255, 89, 0);
 }
 
+.image-hover-box-details {
+  padding-bottom: 15px;
+  padding-left: 10px;
+}
+
 .header-logo-text {
   padding-left: 15px;
   text-transform: uppercase;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-weight: 900;
-}
 
-.main-container {
-  width: 1140px;
-  margin: 48px auto 0 auto;
+  font-weight: 900;
 }
 
 footer {
   color: rgb(255, 255, 255);
   text-align: center;
   font-size: 12px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-} 
-.footer-container {
-  width: 1140px;
-  margin: 61px auto 20px auto;
+}
+
+footer.container {
+  margin-top: 61px;
+  margin-bottom: 20px;
 }
 
 .tour-images {

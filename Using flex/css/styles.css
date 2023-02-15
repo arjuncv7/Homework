@@ -1,12 +1,12 @@
 body {
-  width: 1336px;
-  margin: 0 auto;
   background-image: url(../images/background.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
 }
-
+header{
+  color: white;
+}
 .header-logo-image {
   object-fit: cover;
   object-position: left;
@@ -18,10 +18,10 @@ body {
 .header-logo:hover .header-logo-text {
   color: rgb(221, 91, 30);
   object-position: right;
+
 }
 
 .container {
-  color: white;
   width: 1140px;
   margin: 49px auto 0 auto;
 }
@@ -50,8 +50,12 @@ body {
 .tour-item {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   position: relative;
+  padding-bottom:58px;;
 }
-
+.tour-item:hover .tour-item-text{
+  color: rgba(255, 89, 0) ;
+  transition: 0.3s;
+}
 .tour-item:hover .image-hover-box {
   visibility: visible;
   opacity: 1;
@@ -63,10 +67,6 @@ body {
   font-size: 18px;
 }
 
-.tour-item:hover .tour-item-text {
-  transition: 0.3s;
-  color: rgba(255, 89, 0);
-}
 
 .image-hover-box-price,
 .image-hover-box-details {
@@ -75,24 +75,22 @@ body {
 
 .image-price,
 .details {
-  font-size: 12px;
+  font-size: 18px;
 }
 
 .image-price-from {
-  font-size: 9px;
+  font-size: 10px;
   padding-bottom: 5px;
 }
 
 .image-hover-box {
   background-color: rgba(255, 89, 0, 0.8);
-  padding: 0 48px 0 20px;
+  padding: 10px 41px 0 20px;
   position: absolute;
-  bottom: 43px;
-  height: 60px;
-  width: 242px;
+  gap:83px;
+  bottom: 100px;
   display: flex;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  justify-content: space-between;
   align-items: end;
   visibility: hidden;
   opacity: 0;
@@ -130,14 +128,8 @@ body {
   border-image: linear-gradient(180deg, white, black) 1;
 }
 
-.item-container {
-  margin-bottom: 58px;
-}
 
-.main-container {
-  width: 1140px;
-  margin: 49px auto 0 auto;
-}
+
 
 footer {
   color: white;
@@ -146,9 +138,9 @@ footer {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.footer-container {
-  width: 1140px;
-  margin: 0 auto 20px auto;
+footer.container {
+  margin-top: 0;
+  margin-bottom: 20px;
 }
 
 a {
